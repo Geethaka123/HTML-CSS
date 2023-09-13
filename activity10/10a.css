@@ -1,0 +1,36 @@
+.profile-picture, .profile-info, .follow-button{
+  display: inline-block;
+  vertical-align: middle;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  
+}
+p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.profile-info{
+  font-family: arial;
+  color: gray;
+  margin: 10px;
+  width: 150px;
+}
+.profile-name{
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+.profile-status{
+  font-size: 13px;
+  margin-top: 5px;
+}
+button{
+  background-color: rgba(117, 117, 202, 0.89);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
