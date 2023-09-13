@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .nested-flexbox{
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+    .column1{
+      background-color: aqua;
+      width: 100px;
+    }
+    .column2{
+      background-color: aquamarine;
+      width: 200px;
+    }
+    .row2{
+      background-color: black;
+      color: aliceblue;
+    }
+    .inside-flex-box{
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="nested-flexbox">
+    <div class="column1"></div>
+    <div class="column2">
+      <div class="row1">row1</div>
+      <div class="inside-flex-box">
+        <div class="row2">row2</div>
+        <div class="row2">row2</div>  
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nested flexbox</title>
+  <style>
+    .flex-box{
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+    .row1{
+      display: flex;
+      background-color: aqua;
+      width: 100px;
+      align-items: center;
+      justify-content: center;
+    }
+    .row2{
+      background-color: bisque;
+      width: 200px;
+    }
+    .item{
+      
+      background-color: black;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="flex-box">
+    <div class="row1">
+      <div class="item">item1</div>
+    </div>
+    <div class="row2"></div>
+  </div>
+</body>
+</html>
